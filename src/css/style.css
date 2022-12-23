@@ -300,7 +300,11 @@ a {
 /* --------- Responsive Design --------- */
 @media (max-width: 575px) {
     .container {
-      width: 80%;
+      width: 380px;
+    }
+
+    .header {
+      margin-bottom: 52px;
     }
 
     .navbar {
@@ -342,13 +346,13 @@ a {
     }
 
     .main__text {
-        margin-right: -45px;
-        margin-left: -45px;
+        margin-right: -85px;
+        margin-left: -85px;
         margin-bottom: 0;
     }
 
     .main__text-animation {
-        width: 305%;
+        width: 300%;
     }
 
     .main__text p {
@@ -377,6 +381,77 @@ a {
     .starlet {
         display: none;
       }
+    
+    .about__title {
+      width: 237px;
+      height: 44px;
+      margin-bottom: 48px;
+    }
+
+    .about__title-text {
+      font-size: 36px;
+      line-height: 44px;
+      margin-right: 40px;
+    }
+
+    .about__title-symbols {
+      font-size: 36px;
+      line-height: 44px;
+    }
+
+
+    .left__skills {
+      width: 77px;
+      height: 241px;
+      justify-content: space-evenly;
+    }
+
+    .left__skills p {
+      font-size: 42px;
+      line-height: 51px;
+    }
+
+    .left__skills p:nth-child(2) {
+      -webkit-text-stroke: 1px #000;
+    }
+
+    .left__img {
+      width: 150px;
+      left: 27px;
+      padding-top: 40px;
+    }
+
+    .about__info-right {
+      padding-left: 130px;
+    }
+    
+    .right__text {
+      width: 178px;
+      height: 264px;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    .right__skills {
+      margin-left: -205px;
+    }
+
+    .right__skills-title {
+      font-size: 16px;
+      line-height: 24px
+    }
+    
+    .right__skills-title span {
+      font-size: 24px;
+      line-height: 75px;
+      margin-right: 9px;
+    }
+
+    .right__skills-desc {
+      padding-left: 30px;
+    }
+
 }
 
 
