@@ -425,7 +425,6 @@ a {
     .about__info-right {
       width: 178px;
       height: 625px;
-      margin-right: 33px;
     }
     
     .right__text {
@@ -438,7 +437,9 @@ a {
     }
 
     .right__skills {
-      margin-left: -167px;
+      margin-left: -200px;
+      width: 380px;
+      height: 182px;
     }
 
     .right__skills-title {
