@@ -101,7 +101,7 @@ a {
 
 .main__title {
   display: flex;
-  margin-bottom: 40px;
+  margin-bottom: 64px;
 }
 
 .main__title-static {
@@ -127,16 +127,16 @@ a {
 }
 
 .main__text {
-  height: 105px;
-  margin-right:-180px;
-  margin-left:-180px;
+  height: 116px;
+  margin-right:-380px;
+  margin-left:-380px;
   overflow: hidden;
-  margin-bottom: 62px;
+  margin-bottom: 92px;
 }
 
 .main__text-animation {
   display: flex;
-  width: 275%;
+  width: 220%;
   animation: marquee-infinite 7s linear infinite;
 }
 
@@ -154,13 +154,13 @@ a {
 .main__info {
   position: relative;
   width: 580px;
-  margin-bottom: 80px;
+  margin-bottom: 122px;
 }
 
 .starlet {
   position: absolute;
-  left: -30px;
-  top: 275px;
+  left: -40px;
+  top: 315px;
   color: #00F5A0;
   font-size: 128px;
   line-height: 155px;
@@ -175,7 +175,7 @@ a {
   font-size: 24px;
   line-height: 218%;
   color: white;
-  margin-bottom: 40px;
+  margin-bottom: 64px;
 }
  
 .line {
@@ -306,7 +306,7 @@ a {
     .navbar {
         height: 64px;
         padding: 0 0 0 24px;
-        margin-bottom: 86px;
+        margin-bottom: 114px;
     }
 
     .logo img {
