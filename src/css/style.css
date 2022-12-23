@@ -416,13 +416,16 @@ a {
     }
 
     .left__img {
-      width: 150px;
+      width: 133px;
+      height: 260px;
       left: 27px;
       padding-top: 40px;
     }
 
     .about__info-right {
-      padding-left: 110px;
+      width: 178px;
+      height: 625px;
+      margin-right: 33px;
     }
     
     .right__text {
@@ -431,10 +434,11 @@ a {
       font-weight: 700;
       font-size: 14px;
       line-height: 24px;
+      margin-right: 0;
     }
 
     .right__skills {
-      margin-left: -185px;
+      margin-left: -167px;
     }
 
     .right__skills-title {
