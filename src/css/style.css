@@ -434,7 +434,7 @@ a {
     }
 
     .right__skills {
-      margin-left: -205px;
+      margin-left: -185px;
     }
 
     .right__skills-title {
@@ -450,6 +450,9 @@ a {
 
     .right__skills-desc {
       padding-left: 30px;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 20px;
     }
 
 }
