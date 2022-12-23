@@ -346,13 +346,13 @@ a {
     }
 
     .main__text {
-        margin-right: -85px;
-        margin-left: -85px;
+        margin-right: 0;
+        margin-left: 0;
         margin-bottom: 0;
     }
 
     .main__text-animation {
-        width: 300%;
+        width: 430%;
     }
 
     .main__text p {
@@ -422,7 +422,7 @@ a {
     }
 
     .about__info-right {
-      padding-left: 130px;
+      padding-left: 110px;
     }
     
     .right__text {
