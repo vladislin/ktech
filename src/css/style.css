@@ -128,15 +128,15 @@ a {
 
 .main__text {
   height: 116px;
-  margin-right:-380px;
-  margin-left:-380px;
+  margin-right:-180px;
+  margin-left:-180px;
   overflow: hidden;
   margin-bottom: 92px;
 }
 
 .main__text-animation {
   display: flex;
-  width: 220%;
+  width: 280%;
   animation: marquee-infinite 7s linear infinite;
 }
 
