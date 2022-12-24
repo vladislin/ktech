@@ -31,7 +31,6 @@ a {
 
 .header {
   width: 100%;
-  min-height: 700px;
   margin-bottom: 104px;
 }
 
@@ -348,13 +347,13 @@ a {
     }
 
     .main__text {
-        margin-right: 0;
-        margin-left: 0;
+        margin-right: -95px;
+        margin-left: -95px;
         margin-bottom: 0;
     }
 
     .main__text-animation {
-        width: 430%;
+        width: 285%;
     }
 
     .main__text p {
@@ -469,6 +468,104 @@ a {
       margin: -20px 0 10px 0;
     }
 
+}
+
+@media (max-width: 375px) {
+  .container {
+    width: 327px;
+
+  }
+  .header {
+    margin-bottom: 42px;
+  }
+  .navbar {
+    height: 49px;
+    padding: 0 0 0 24px;
+    margin-bottom: 56px;
+  }
+  .logo img {
+    width: 70px;
+  }
+  .menu__button {
+    width: 80px;
+    height: 49px;
+  }
+  .hamburger {
+    height: 24px;
+    width: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+  .hamburger__line {
+    display: block;
+    height: 2px;
+    width: 80%;
+    border-radius: 10px;
+    background: #fff;
+  }
+  .main__title {
+    margin-bottom: 32px;
+  }
+  .main__text {
+    height: 48px;
+    margin-bottom: 32px;
+  }
+  .main__text-animation {
+    width: 315%;
+  }
+  .main__info {
+    width: 327px;
+    margin-bottom: 48px;
+  }
+  .main__info-text {
+    font-size: 14px;
+    line-height: 240%;
+    height: 102px;
+    width: 327px;
+    margin-bottom: 185px;
+  }
+  .starlet {
+    font-size: 600px;
+    line-height: 726px;
+    left: 180px;
+    top: 85px;
+  }
+  .about__title {
+    width: 160px;
+    height: 44px;
+    margin-bottom: 29px;
+    justify-content: unset;
+  }
+  .about__title-text {
+    white-space: nowrap;
+  }
+  .left__skills {
+    width: 64px;
+  }
+  .left__img {
+    width: 152px;
+    height: 239px;
+    left: 0;
+    top: 57px;
+    padding: 0;
+  }
+  .right__text {
+    width: 151px;
+    height: 260px;
+    font-weight: 600;
+    line-height: 140%;
+    margin: 42px 24px 0 24px;
+  }
+  .right__skills {
+    margin-left: -147px;
+    width: 327px;
+  }
+  .right__skills-desc {
+    padding-left: 26px;
+    font-size: 11px;
+  }
 }
 
 
