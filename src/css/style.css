@@ -306,6 +306,7 @@ a {
 
     .header {
       margin-bottom: 52px;
+      overflow: hidden;
     }
 
     .navbar {
