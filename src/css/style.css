@@ -162,6 +162,7 @@ a {
   left: -40px;
   top: 315px;
   color: #00F5A0;
+  font-weight: 700;
   font-size: 128px;
   line-height: 155px;
   -webkit-text-stroke: 1px #00F5A0;
@@ -310,7 +311,7 @@ a {
     .navbar {
         height: 64px;
         padding: 0 0 0 24px;
-        margin-bottom: 114px;
+        margin-bottom: 86px;
     }
 
     .logo img {
@@ -370,7 +371,9 @@ a {
     .main__info-text {
         font-size: 16px;
         line-height: 260%;
-        margin-bottom: 65px;
+        height: 201px;
+        width: 380px;
+        margin-bottom: 255px;
     }
 
     .btn-text {
@@ -379,8 +382,12 @@ a {
     }
     
     .starlet {
-        display: none;
-      }
+      font-weight: 700;
+      font-size: 926.056px;
+      line-height: 1121px;
+      left: 220px;
+      top: 85px;
+    }
     
     .about__title {
       width: 237px;
