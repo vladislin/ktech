@@ -183,6 +183,10 @@ a {
 }
 
 /* About */
+#about-us {
+  margin-bottom: 262px;
+}
+
 .about__info {
   display: flex;
   justify-content: space-between;
@@ -292,6 +296,84 @@ a {
 
 .right__skills-desc:last-child {
   margin-bottom: 0;
+}
+
+/* Projects */
+.projects {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 257px;
+}
+
+.projects__left-title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 482px;
+  height: 458px;
+  margin-bottom: 64px;
+}
+
+.projects__left-title h2 {
+  align-items: center;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  color: #fff;
+}
+
+.projects__left-title p {
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 143px;
+  background: linear-gradient(180deg, #00F5A0 -2.14%, #00D9F5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.projects__left-text {
+  width: 464px;
+  height: 96px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #fff;
+  margin-bottom: 64px;
+}
+
+.projects__right {
+  position: relative;
+}
+
+.projects__right-main {
+  position: absolute;
+  top: 55px;
+  right: 133px;
+  width: 348px;
+  height: 674px;
+  background: #D9D9D9;
+  border-radius: 10px;
+}
+
+.projects__right-second {
+  position: absolute;
+  top: 151px;
+  left: -347px;
+  width: 348px;
+  height: 674px;
+  background: #979797;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.bracket {
+  position: absolute;
+  left: 550px;
+  font-weight: 700;
+  font-size: 136px;
+  line-height: 145px;
+  color: #00F5A0;
 }
 
 
@@ -532,6 +614,9 @@ a {
     left: 180px;
     top: 85px;
   }
+  #about-us {
+    margin-bottom: 72px;
+  }
   .about__title {
     width: 160px;
     height: 44px;
@@ -565,6 +650,46 @@ a {
   .right__skills-desc {
     padding-left: 26px;
     font-size: 11px;
+  }
+  .projects__left-title {
+    width: 263px;
+    height: 233px;
+    margin-bottom: 48px;
+  }
+  .projects__left-title h2 {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .projects__left-title p {
+    font-size: 48px;
+    line-height: 92px;
+  }
+  .projects__left-text {
+    width: 152px;
+    height: 132px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 151px;
+  }
+  .projects__right {
+  }
+  .projects__right-main {
+    width: 151px;
+    height: 321px;
+    top: 150px;
+    right: 0;
+  }
+  .projects__right-second {
+    width: 151px;
+    height: 321px;
+    top: 190px;
+    left: -100px;
+  }
+  .bracket {
+    font-size: 32px;
+    line-height: 39px;
+    left: 250px;
+    top: 10px;
   }
 }
 
