@@ -651,6 +651,9 @@ a {
     padding-left: 26px;
     font-size: 11px;
   }
+  #projects {
+    overflow: hidden;
+  }
   .projects__left-title {
     width: 263px;
     height: 233px;
@@ -670,8 +673,6 @@ a {
     font-size: 14px;
     line-height: 22px;
     margin-bottom: 151px;
-  }
-  .projects__right {
   }
   .projects__right-main {
     width: 151px;
