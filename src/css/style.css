@@ -378,7 +378,7 @@ a {
 
 /* How it works */
 #how-it-works {
-
+  margin-bottom: 212px;
 }
 
 .how-it__title {
@@ -441,6 +441,20 @@ a {
   line-height: 32px;
   -webkit-text-stroke: 1px #00F5A0;
   -webkit-text-fill-color: transparent;
+}
+
+/* How it works */
+.contact-us {
+
+}
+
+.contact-us__title {
+  width: 902px;
+  height: 154px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  color: #fff;
 }
 
 
@@ -783,6 +797,7 @@ a {
   }
   .how-it__list {
     width: 100%;
+    height: 625px;
   }
   .how-it__list p  {
     padding: 20px 0 15px 0;
