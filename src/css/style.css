@@ -16,6 +16,7 @@ a {
 
 .container {
   max-width: 1140px;
+  height: 100%;
   margin: 0 auto;
   position: relative;
 }
@@ -446,6 +447,7 @@ a {
 /* Contact us */
 .contact-us {
   height: 700px;
+  margin-bottom: 68px;
 }
 
 .contact-us__title {
@@ -518,6 +520,107 @@ a {
   line-height: 484px;
   left: 935px;
   top: 250px;
+}
+
+/* Contact us */
+
+.footer {
+  width: 100%;
+  height: 361px;
+  border-top: 1px solid #fff;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.footer__left {
+  width: 990px;
+  padding-top: 63px;
+}
+
+.social-links {
+  width: 168px;
+  height: 74px;
+  margin-top: 120px;
+}
+
+.social-links a {
+  display: block;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.social-links a:last-child {
+  margin-bottom: 0;
+}
+
+.footer__text {
+  width: 518px;
+  height: 267px;
+  position: absolute;
+  left: 21.17%;
+  bottom: 10.57%;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 75px;
+  color: #00F5A0;
+}
+
+
+.footer__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 100%;
+  border-left: 1px solid #fff;
+}
+
+.contacts {
+  width: 239px;
+  height: 247px;
+}
+
+.contacts__title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 75px;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.contacts__email {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #00F5A0;
+  margin-bottom: 16px;
+}
+
+.contacts__phone {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #00F5A0;
+  margin-bottom: 16px;
+}
+
+.contacts__address {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fff;
 }
 
 
@@ -897,6 +1000,56 @@ a {
     line-height: 121px;
     left: 340px;
     top: 45px;
+  }
+  .footer {
+    height: 160px;
+  }
+  .footer__left {
+    width: 199px;
+    padding-top: 31px;
+  }
+  .footer__text {
+    width: 333px;
+    height: 24px;
+    font-size: 12px;
+    line-height: 24px;
+    left: 3%;
+    bottom: 108%;
+  }
+  .social-links {
+    height: 50px;
+    margin-top: 24px;
+  }
+  .social-links a {
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 8px;
+  }
+  .footer__right {
+    width: 176px;
+  }
+  .contacts {
+    width: 122px;
+    height: 92px;
+  }
+  .contacts__title {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 16px;
+  }
+  .contacts__email {
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 4px;
+  }
+  .contacts__phone {
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 8px;    
+  }
+  .contacts__address {
+    font-size: 12px;
+    line-height: 15px;
   }
 }
 
