@@ -443,9 +443,9 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
-/* How it works */
+/* Contact us */
 .contact-us {
-
+  height: 700px;
 }
 
 .contact-us__title {
@@ -455,6 +455,69 @@ a {
   font-size: 64px;
   line-height: 77px;
   color: #fff;
+  margin-bottom: 64px;
+}
+
+.contact-us__form-wrapper {
+  width: 900px;
+  height: 297px;
+}
+
+.contact-us__form-wrapper form p {
+  display: flex;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 36px;
+  white-space: nowrap;
+}
+
+.contact-us__form-wrapper form p:nth-child(3) {
+  margin-bottom: 16px;
+}
+
+.contact-us__form-wrapper form p span {
+  color: #00F5A0;
+}
+
+.contact-us__form-wrapper form p input {
+  border: 0;
+  border-bottom: 1px solid #fff;
+  outline: 0;
+  background: transparent;
+  color: #fff;
+  width: 100%;
+}
+
+.contact-us__form-wrapper form .required {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #00F5A0;
+  margin-bottom: 64px;
+}
+
+.contact-us__form-wrapper input[type="submit"] {
+  border: 0;
+  outline: 0;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.contact-us .starlet {
+  font-size: 200px;
+  line-height: 242px;
+  left: 880px;
+  top: 460px;
+}
+
+.contact-us .starlet-big {
+  font-size: 400px;
+  line-height: 484px;
+  left: 935px;
+  top: 250px;
 }
 
 
@@ -776,6 +839,7 @@ a {
   }
   #how-it-works {
     overflow: hidden;
+    margin-bottom: 216px;
   }
   .how-it__title {
     justify-content: flex-start;
@@ -805,6 +869,34 @@ a {
   }
   .how-it__list p:last-child {
     margin-bottom: 0;
+  }
+  .contact-us {
+    overflow: hidden;
+  }
+  .contact-us__title {
+    width: 303px;
+    height: 87px;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 48px;
+  }
+  .contact-us__form-wrapper {
+    width: 327px;
+    height: 252px;
+  }
+  .contact-us__form-wrapper form p {
+    display: block;
+    white-space: initial;
+    margin-bottom: 24px;
+  }
+  .contact-us__form-wrapper form p input[name="name"] {
+    margin-bottom: 24px;
+  }
+  .contact-us .starlet {
+    font-size: 100px;
+    line-height: 121px;
+    left: 340px;
+    top: 45px;
   }
 }
 
