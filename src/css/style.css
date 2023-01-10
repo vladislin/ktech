@@ -530,7 +530,11 @@ select:-webkit-autofill:focus {
   font-size: 12px;
   line-height: 20px;
   color: #00F5A0;
-  margin-bottom: 64px;
+  margin-bottom: 32px;
+}
+
+.g-recaptcha {
+  margin-bottom: 32px;
 }
 
 .contact-us__form-wrapper input[type="submit"] {
@@ -655,6 +659,38 @@ select:-webkit-autofill:focus {
   line-height: 29px;
   color: #fff;
 }
+
+/* Services */
+.services {
+  height: 750px;
+}
+
+.services__title {
+  display: flex;
+  justify-content: center;
+}
+
+.services__title h1 {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  color: #fff;
+}
+
+.services__title h1 span {
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 145px;
+  color: #00F5A0;
+  padding-bottom: 25px;
+}
+
+.services__cards {
+
+}
+
 
 
 /* --------- Responsive Design --------- */
