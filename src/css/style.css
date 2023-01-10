@@ -238,6 +238,8 @@ a {
   font-weight: 700;
   font-size: 96px;
   line-height: 143px;
+  -webkit-animation: marquee 4s infinite linear;
+  animation: marquee 4s infinite linear;
 }
 
 .left__skills p:nth-child(2) {
@@ -245,6 +247,9 @@ a {
   font-style: italic;
   -webkit-text-stroke: 2px #000;
   -webkit-text-fill-color: transparent;
+  -webkit-animation: marquee 2s infinite linear;
+  animation: marquee 2s infinite linear;
+  animation-direction: reverse;
 }
 
 .left__img {
@@ -355,6 +360,7 @@ a {
   height: 674px;
   background: #D9D9D9;
   border-radius: 10px;
+  --animate-duration: 3s;
 }
 
 .projects__right-second {
@@ -366,6 +372,7 @@ a {
   background: #979797;
   border-radius: 10px;
   z-index: -1;
+  --animate-duration: 3s;
 }
 
 .bracket {
@@ -444,6 +451,16 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
+.how-it__list p:hover {
+  background: linear-gradient(89.98deg, #00F5A0 0.01%, #00D9F5 99.98%);
+  color: #000;
+}
+
+.how-it__list p:hover sup {
+  -webkit-text-stroke: 1px #000;
+  -webkit-text-fill-color: transparent;
+}
+
 /* Contact us */
 .contact-us {
   height: 700px;
@@ -492,6 +509,22 @@ a {
   width: 100%;
 }
 
+.contact-us__form-wrapper form p input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 0;
+  border-bottom: 1px solid #fff;
+  -webkit-text-fill-color: #fff;
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
 .contact-us__form-wrapper form .required {
   font-weight: 400;
   font-size: 12px;
@@ -522,7 +555,7 @@ a {
   top: 250px;
 }
 
-/* Contact us */
+/* Footer */
 
 .footer {
   width: 100%;
@@ -1086,4 +1119,13 @@ a {
   100% {
     transform: translateX(-50%);
   }
+}
+
+@-webkit-keyframes marquee {
+  0% {transform: translateX(0%);}
+  100% {transform: translateX(-100%);}
+}
+@keyframes marquee{
+  0% {transform: translateX(0%);}
+  100% {transform: translateX(-100%);}
 }

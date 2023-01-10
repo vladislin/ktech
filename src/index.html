@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css"> 
@@ -85,8 +86,8 @@
                 <a href="/"><p class="btn-text">*Learn more  - - - - &gt;</p></a>
             </div>
             <div class="projects__right">
-                <div class="projects__right-main"></div>
-                <div class="projects__right-second"></div>
+                <div class="projects__right-main animate__animated animate__fadeInDown animate__infinite infinite"></div>
+                <div class="projects__right-second animate__animated animate__fadeInUp animate__infinite infinite"></div>
             </div>
             <div class="bracket">{</div>
         </div>
@@ -113,10 +114,10 @@
                 Let us know more about you and how we can connect:
             </div>
             <div class="contact-us__form-wrapper">
-                <form action="">
-                    <p>My name is<span>*:</span><input type="text" name="name"> and I work in: <input type="text" name="work-in"></p>
-                    <p>I want to talk with you about: <input type="text" name="messsage"></p>
-                    <p>Would you email me at<span>*:</span> <input type="text" name="email"></p>
+                <form action="" method="post" id="ContactUsForm">
+                    <p>My name is<span>*:</span><input required type="text" name="name"> and I work in: <input type="text" name="work-in"></p>
+                    <p>I want to talk with you about: <input type="text" name="message"></p>
+                    <p>Would you email me at<span>*:</span> <input required type="text" name="email"></p>
                     <p class="required">*This field is required</p>
                     <input class="btn-text" type="submit" value="*Submit request  - - - - >">
                 </form>
@@ -147,5 +148,9 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script src="js/sendEmail.js"></script>
 </body>
 </html>
