@@ -848,6 +848,82 @@ select:-webkit-autofill:focus {
   -webkit-text-fill-color: transparent;
 }
 
+/* Quote Form */
+#quoteForm {
+  height: 582px;
+  margin-bottom: 383px;
+}
+
+.tab__title {
+  width: 740px;
+  height: 176px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 88px;
+  color: #fff;
+  margin-bottom: 106px;
+}
+
+.tab__title span {
+  color: #00F5A0;
+}
+
+.tab__inputs {
+  display: flex;
+  justify-content: space-between;
+  width: 1068px;
+  height: 147px;
+  margin-bottom: 124px;
+}
+
+.tab__inputs-btn {
+  display: flex;
+  align-items: center;
+  width: 225px;
+  height: 147px;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(89.98deg, #00F5A0 0.01%, #00D9F5 99.98%);
+  border-image-slice: 1;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 75px;
+  text-transform: uppercase;
+  color: #F8F8F8;
+}
+
+.tab__inputs-btn span {
+  position: absolute;
+  padding-left: 14px;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 75px;
+  text-transform: uppercase;
+  -webkit-text-stroke: 2px #6A6A6A;
+  -webkit-text-fill-color: transparent;
+  z-index: -1;
+}
+
+.tab__inputs-btn:hover {
+  background: linear-gradient(89.98deg, #00F5A0 0.01%, #00D9F5 99.98%);
+  color: #000;
+}
+
+.tab__inputs-btn:hover span {
+  -webkit-text-stroke: 1px #000;
+  z-index: 0;
+}
+
+.tab .required {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #00F5A0;
+}
+
+
+
+
 
 
 /* --------- Responsive Design --------- */
