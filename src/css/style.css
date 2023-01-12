@@ -855,7 +855,7 @@ select:-webkit-autofill:focus {
 }
 
 .tab__title {
-  width: 740px;
+  width: 790px;
   height: 176px;
   font-weight: 700;
   font-size: 64px;
@@ -870,7 +870,9 @@ select:-webkit-autofill:focus {
 
 .tab__inputs {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 56px;
   width: 1068px;
   height: 147px;
   margin-bottom: 124px;
