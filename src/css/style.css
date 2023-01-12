@@ -788,7 +788,7 @@ select:-webkit-autofill:focus {
   font-weight: 700;
   font-size: 128px;
   line-height: 75px;
-  -webkit-text-stroke: 0.4px #F8F8F8;
+  -webkit-text-stroke: 0.5px #F8F8F8;
   -webkit-text-fill-color: transparent;
 }
 
@@ -1268,7 +1268,7 @@ select:-webkit-autofill:focus {
     font-size: 12px;
     line-height: 15px;
     margin-bottom: 4px;
-  }
+  } 
   .contacts__phone {
     font-size: 12px;
     line-height: 15px;
@@ -1278,6 +1278,85 @@ select:-webkit-autofill:focus {
     font-size: 12px;
     line-height: 15px;
   }
+  .services__title {
+    margin-bottom: 69px;
+  }
+  .services__title h1 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .services__title h1 span {
+    font-size: 48px;
+    line-height: 58px;
+    padding-bottom: 10px;
+  }
+  .services__cards {
+    width: 327px;
+    height: 306px;
+    margin-bottom: 88px;
+  }
+  .cards {
+    width: 327px;
+    height: 56px;
+  }
+  .cards__nubmer {
+    width: 153px;
+    height: 93px;
+    font-size: 40px;
+    line-height: 75px;
+  }
+  .cards__text {
+    width: 153px;
+    height: 93px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .services__types {
+    width: 327px;
+    height: 150px;
+    margin-bottom: 82px;
+  }
+  .type {
+    width: 153px;
+    height: 75px;
+  }
+  .type__number {
+    padding: 0;
+    font-size: 36px;
+    line-height: 75px;   
+  }
+  .type__name {
+    font-size: 12px;
+    line-height: 260%;
+  }
+  .services__tech-stack {
+    height: 82px;
+    margin-bottom: 82px;
+  }
+  .tech-stack__title {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .tech-stack-icons {
+    height: 35px;
+  }
+  .icon svg {
+    width: 40px;
+    height: 40px;
+  }
+  .services__text {
+    width: 327px;
+    height: 83px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .services__text span {
+    font-size: 96px;
+    line-height: 75px;
+    bottom: 18px;
+    left: -10px;
+  }
+
 }
 
 
