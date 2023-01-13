@@ -15,7 +15,7 @@
     <div class="navbar">
         <a class="logo" href="index.html"><img src="img/logo.png" alt="logo"/></a>
         <div class="menu">
-            <a class="menu__form-button" href="/"><p class="btn-text">*Quote now - - - - ></p></a>
+            <!-- <a class="menu__form-button" href="/"><p class="btn-text">*Quote now - - - - ></p></a> -->
             <div class="menu__button">
                 <div class="hamburger">
                     <span class="hamburger__line"></span>
@@ -30,23 +30,67 @@
 <section class="quote-form">
     <div class="container">
         <form id="quoteForm" action="">
-            <div class="tab">
+            <div class="tab active">
                 <h1 class="tab__title">Which phase is your project currently in?<span>*</span></h1>
                 <div class="tab__inputs">
-                    <p class="tab__inputs-btn"><span>01</span>idea</p>
-                    <p class="tab__inputs-btn"><span>02</span>drafts</p>
-                    <p class="tab__inputs-btn"><span>03</span>in development</p>
-                    <p class="tab__inputs-btn"><span>04</span>maintaining</p>
+                    <label>
+                        <input type="checkbox" name="idea">
+                        <p class="tab__inputs-btn"><span>01</span>idea</p>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="drafts">
+                        <p class="tab__inputs-btn"><span>02</span>drafts</p>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="development">
+                        <p class="tab__inputs-btn"><span>03</span>in development</p>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="maintaining">
+                        <p class="tab__inputs-btn"><span>04</span>maintaining</p>
+                    </label>
                 </div>
                 <div class="required">*This question is required</div>
+                <button type="button" class="next-btn">*Next - - - - ></button>
             </div>
             <div class="tab">
                 <h1 class="tab__title">Which type(s) of development you need?<span>*</span></h1>
                 <div class="tab__inputs">
-                    <p class="tab__inputs-btn"><span>01</span>web</p>
-                    <p class="tab__inputs-btn"><span>02</span>mobile</p>
+                    <label>
+                        <input type="checkbox" name="web">
+                        <p class="tab__inputs-btn"><span>01</span>web</p>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="mobile">
+                        <p class="tab__inputs-btn"><span>02</span>mobile</p>
+                    </label>                    
                 </div>
                 <div class="required">*This question is required</div>
+                <div class="tab__btns">
+                    <button type="button" class="previous-btn">< - - - - Prev*</button>
+                    <button type="button" class="next-btn">*Next - - - - ></button>
+                </div>
+            </div>
+            <div class="tab">
+                <h1 class="tab__title">Which type(s) of development you need?<span>*</span></h1>
+                <div class="tab__inputs">
+                    <label>
+                        <input type="checkbox" name="interested">
+                        <p class="tab__inputs-btn"><span>01</span>i am interested</p>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="not-interested">
+                        <p class="tab__inputs-btn"><span>02</span>i am not interested</p>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="another-answer">
+                        <p class="tab__inputs-btn"><span>03</span>change answer</p>
+                    </label>                    
+                </div>
+                <div class="tab__btns">
+                    <button type="button" class="previous-btn">< - - - - Prev*</button>
+                    <button type="submit" class="submit-btn">*Submit request - - - - ></button>
+                </div>
             </div>
         </form>
     </div>
@@ -74,5 +118,6 @@
         </div>
     </div>
 </footer>
+<script src="js/formHandelr.js"></script>
 </body>
 </html>

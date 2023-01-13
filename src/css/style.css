@@ -854,6 +854,14 @@ select:-webkit-autofill:focus {
   margin-bottom: 383px;
 }
 
+.tab {
+  display: none;
+}
+
+.tab.active {
+  display: block;
+}
+
 .tab__title {
   width: 790px;
   height: 176px;
@@ -872,10 +880,33 @@ select:-webkit-autofill:focus {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  position: relative;
   gap: 56px;
   width: 1068px;
   height: 147px;
   margin-bottom: 124px;
+}
+
+.tab__inputs label {
+  position: relative;
+  cursor: pointer;
+}
+
+.tab__inputs label input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+}
+
+.tab__inputs label :checked ~ .tab__inputs-btn {
+  background: linear-gradient(89.98deg, #00F5A0 0.01%, #00D9F5 99.98%);
+  color: #000;
+  box-shadow: inset 1px 1px 6px white, inset 5px 5px 6px rgba(0, 0, 0, 0.1);
+  border: 0;
+}
+
+.tab__inputs label :checked ~ .tab__inputs-btn span {
+  -webkit-text-stroke: 1px #000;
+  z-index: 0;
 }
 
 .tab__inputs-btn {
@@ -888,7 +919,7 @@ select:-webkit-autofill:focus {
   border-image-slice: 1;
   font-weight: 700;
   font-size: 24px;
-  line-height: 75px;
+  line-height: 40px;
   text-transform: uppercase;
   color: #F8F8F8;
 }
@@ -918,9 +949,22 @@ select:-webkit-autofill:focus {
 
 .tab .required {
   font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 18px;
+  line-height: 23px;
   color: #00F5A0;
+  margin-bottom: 25px;
+}
+
+.next-btn, .previous-btn, .submit-btn {
+  color: #00f5a0;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  background: transparent;
+  margin-right: 182px;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
 }
 
 
@@ -1434,7 +1478,57 @@ select:-webkit-autofill:focus {
     bottom: 18px;
     left: -10px;
   }
+  #quoteForm {
+    /* height: 580px; */
+    margin-bottom: 140px;
+  }
+  .tab__title {
+    width: 316px;
+    height: 58px;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 67px;
+  }
+  .tab__inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    width: 327px;
+    /* height: 372px; */
+    margin-bottom: 255px;
+  }
+  .tab__inputs-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 16px;
+    gap: 16px;
+    width: 327px;
+    height: 75px;
+    font-size: 20px;
+    line-height: 75px;
+  }
+  .tab__inputs-btn span {
+    position: relative;
+    font-size: 48px;
+    line-height: 75px;
+    padding: 0;
+  }
+  .tab .required {
+    font-size: 14px;
+    line-height: 19px;
+  }
 
+  .tab__btns {
+    display: flex;
+    justify-content: space-between;
+  }
+  .next-btn, .previous-btn, .submit-btn {
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0;
+  }
 }
 
 
