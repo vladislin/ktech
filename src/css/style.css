@@ -1519,7 +1519,6 @@ select:-webkit-autofill:focus {
     font-size: 14px;
     line-height: 19px;
   }
-
   .tab__btns {
     display: flex;
     justify-content: space-between;
@@ -1528,6 +1527,16 @@ select:-webkit-autofill:focus {
     font-size: 16px;
     line-height: 19px;
     margin: 0;
+  }
+  .tab__inputs-btn:hover {
+    background: none;    
+  }
+  .tab__inputs-btn:hover {
+    color: #fff;
+  }
+  .tab__inputs-btn:hover span {
+    -webkit-text-stroke: 2px #6A6A6A;
+    z-index: 0;
   }
 }
 
